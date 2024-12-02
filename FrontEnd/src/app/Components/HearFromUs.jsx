@@ -1,8 +1,8 @@
 'use client'
 import React from 'react'
 import HearFromUs_Card from './HearFromUs_Card'
-import './../Css/HearFromUs.css'
-import {HFU_img1,HFU_img2,HFU_img3,HFU_img4,HFU_img5,HFU_img6} from './../../Public/images.jsx'
+import '/Css/HearFromUs.css'
+import {HFU_img1,HFU_img2,HFU_img3,HFU_img4,HFU_img5,HFU_img6} from './../../public/images.jsx'
 import Slider from "react-slick"; // npm i react-slick
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css"; //npm i slick-carousel

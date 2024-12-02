@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import './../../Css/NavbarDropdowns/NavbarDropdown.css'
+import '/Css/NavbarDropdowns/NavbarDropdown.css'
 import Link from 'next/link'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';

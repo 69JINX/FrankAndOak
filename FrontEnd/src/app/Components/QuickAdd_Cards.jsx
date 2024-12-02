@@ -1,6 +1,6 @@
 'use client'
 import React, { useEffect, useState } from 'react'
-import './../Css/QuickAdd_Cards.css'
+import '/Css/QuickAdd_Cards.css'
 import Link from 'next/link'
 import { FaRegCircleDot } from "react-icons/fa6";
 import { Toast } from 'react-bootstrap';

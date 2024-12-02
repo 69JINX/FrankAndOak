@@ -4,7 +4,7 @@ import { SlSocialFacebook } from "react-icons/sl";
 import { FaPinterestP } from "react-icons/fa";
 import { BsEnvelope } from "react-icons/bs";
 import { RiLinkedinFill } from "react-icons/ri";
-import { logo, b_corp_certified } from './../../../Public/images.jsx'
+import { logo, b_corp_certified } from './../../../public/images.jsx'
 import Image from 'next/image'
 
 function Footer_social_media() {

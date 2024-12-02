@@ -1,7 +1,7 @@
 'use client'
 import React, { useEffect, useState } from 'react'
 import Navigbar from '../Components/Navigbar'
-import './../Css/Checkouts.css'
+import '/Css/Checkouts.css'
 import { useDispatch, useSelector } from 'react-redux'
 import axios from 'axios'
 import Footer from '../Components/Footer'

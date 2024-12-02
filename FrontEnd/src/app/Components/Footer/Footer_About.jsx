@@ -1,5 +1,5 @@
 import React from 'react'
-import './../../Css/Footer/Footer_About.css'
+import '/Css/Footer/Footer_About.css'
 import Footer_Accordion from './Footer_Accordion.jsx';
 import { Our_Story_li, Discover_li, Customer_Care_li } from './Footer_ul.jsx'
 import Footer_social_media from './Footer_social_media'

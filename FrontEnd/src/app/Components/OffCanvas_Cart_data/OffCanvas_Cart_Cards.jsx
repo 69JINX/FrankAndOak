@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React, { useState } from 'react'
-import { cart_img } from '../../../Public/images.jsx'
+import { cart_img } from '../../../public/images.jsx'
 import { FaRegHeart } from "react-icons/fa"
 import Link from 'next/link.js'
 import { Calligraffitti, Signika_Negative } from 'next/font/google'

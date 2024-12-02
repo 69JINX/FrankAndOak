@@ -1,8 +1,8 @@
 'use client'
 import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
-import './../Css/FeaturedCategories.css'
-import { FC_img1, FC_img2, FC_img3, FC_img4 } from './../../Public/images.jsx'
+import '/Css/FeaturedCategories.css'
+import { FC_img1, FC_img2, FC_img3, FC_img4 } from './../../public/images.jsx'
 import { useSelector } from 'react-redux';
 import Slider from 'react-slick'
 import "slick-carousel/slick/slick-theme.css";
