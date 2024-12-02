@@ -1,7 +1,7 @@
 'use client'
 import React, { useEffect, useState } from 'react'
 import QuickAdd_Card from './QuickAdd_Cards.jsx'
-import '/Css/QuickAdd.css'
+import './../Css/QuickAdd.css'
 import Slider from "react-slick"; // npm i react-slick
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css"; //npm i slick-carousel

@@ -1,6 +1,6 @@
 'use client'
 import React, { useEffect } from 'react'
-import '/Css/Payment.css'
+import './../../Css/Payment.css'
 import { FaCheckCircle } from "react-icons/fa";
 import { useRouter } from 'next/navigation';
 

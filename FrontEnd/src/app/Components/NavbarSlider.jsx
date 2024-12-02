@@ -1,7 +1,7 @@
 'use client';
 import Link from 'next/link';
 import React from 'react'
-import '/Css/NavbarSlider.css';
+import './../Css/NavbarSlider.css';
 import Slider from "react-slick"; // npm i react-slick
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css"; // npm i slick-carousel

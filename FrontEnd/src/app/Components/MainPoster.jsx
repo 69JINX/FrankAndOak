@@ -1,7 +1,7 @@
 import React from 'react'
-import '/Css/MainPoster.css'
+import './../Css/MainPoster.css'
 import Button from 'react-bootstrap/Button';
-import {MainPosterbg} from './../../public/images.jsx'
+import {MainPosterbg} from './../../Public/images.jsx'
 
 function MainPoster() {
     return (

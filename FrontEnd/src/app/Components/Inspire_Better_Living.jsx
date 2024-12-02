@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
-import '/Css/Inspire_Better_Living.css'
-import {IBL_img1,IBL_img2,IBL_img3,IBL_img4} from './../../public/images.jsx'
+import './../Css/Inspire_Better_Living.css'
+import {IBL_img1,IBL_img2,IBL_img3,IBL_img4} from './../../Public/images.jsx'
 
 function Inspire_Better_Living() {
     return (

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import '/Css/OffCanvas_data.css'
+import '././../Css/OffCanvas_data.css'
 import Link from 'next/link';
 import OffCanvas_Cart_Cards from './OffCanvas_Cart_data/OffCanvas_Cart_Cards';
 import { IoLockClosedOutline } from "react-icons/io5";

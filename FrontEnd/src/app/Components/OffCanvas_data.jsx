@@ -3,9 +3,9 @@ import Link from 'next/link';
 import React, { useEffect, useRef, useState } from 'react'
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import Accordion from 'react-bootstrap/Accordion';
-import '/Css/OffCanvas_data.css'
+import '././../Css/OffCanvas_data.css'
 import Image from 'next/image';
-import { logo_dark } from './../../public/images.jsx'
+import { logo_dark } from './../../Public/images.jsx'
 import ThisJustIn from './OffCanvas_data/ThisJustIn';
 import Women from './OffCanvas_data/Women';
 import Men from './OffCanvas_data/Men';

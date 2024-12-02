@@ -1,6 +1,6 @@
 'use client'
 import React, { useEffect } from 'react'
-import '/Css/Payment.css'
+import './../../Css/Payment.css'
 import { MdCancel } from "react-icons/md";
 import { useRouter } from 'next/navigation';
 

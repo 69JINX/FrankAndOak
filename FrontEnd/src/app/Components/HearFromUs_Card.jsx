@@ -1,5 +1,5 @@
 import React from 'react'
-import '/Css/HearFromUs_Card.css'
+import './../Css/HearFromUs_Card.css'
 import Link from 'next/link'
 import Image from 'next/image'
 
