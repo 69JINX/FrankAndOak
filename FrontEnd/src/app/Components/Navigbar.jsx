@@ -255,7 +255,7 @@ function Navigbar() {
                                 <div className='position-absolute top-0 start-50 fs-6 ms-2'>
                                     {cart && cart.length}
                                 </div>
-                                <Offcanvas style={{ width: '80vw' }} placement='end' show={showCart} onHide={() => setShowCart(false)}>
+                                <Offcanvas style={{ width: `${window.innerWidth<500?'80vw':'35vw'}` }} placement='end' show={showCart} onHide={() => setShowCart(false)}>
                                     <OffCanvas_Cart />
                                 </Offcanvas>
                             </li>
