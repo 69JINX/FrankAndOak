@@ -226,7 +226,7 @@ function Navigbar() {
                     </div>
                 </div>
                 <div className='mobile-view d-flex  flex-row justify-content-between pe-4 flex-wrap-reverse'>
-                <div className="controls d-flex fs-3">
+                <div className="controls d-flex fs-3 mb-2">
                         <nav>
                             <div className={`menu smallscrn-menu ${profileDropDown ? 'active' : ''}`}>
                                 {userData ?
