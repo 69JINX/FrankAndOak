@@ -26,7 +26,6 @@ function Collection() {
     const [windowWidth, setWindowWidth] = useState(false)
 
     useEffect(() => {
-        console.log('Window Size=>',window.innerWidth);
         if (window.innerWidth < 500) {
             setWindowWidth(true);
         }
