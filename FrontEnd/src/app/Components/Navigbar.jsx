@@ -54,6 +54,7 @@ function Navigbar() {
     const [showSearchResultBox, setshowSearchResultBox] = useState(false);
     const [searchedProducts, setSearchProducts] = useState([]);
     const [filepath, setfilepath] = useState('');
+    const [windowWidth, setWindowWidth] = useState(0);
     // const handleCloseCart = () => setShowCart(false);
     // const handleShowCart = () => setShowCart(true);
 
@@ -63,7 +64,6 @@ function Navigbar() {
     const [showCartOnSmallScreen, setShowCartOnSmallScreen] = useState(false);
     const handleCloseCartOnSmallScreen = () => setShowCartOnSmallScreen(false);
     const handleShowCartOnSmallScreen = () => setShowCartOnSmallScreen(true);
-    const [windowWidth, setwindowWidth] = useState(window.innerWidth);
 
     const [LoginModalShow, setLoginModalShow] = useState(false);
     const [SignUpModalShow, setSignUpModalShow] = useState(false);
@@ -75,6 +75,12 @@ function Navigbar() {
     const user = useSelector((state) => state.user.value);
     const cart = useSelector((state) => state.cart.cart_value.data);
 
+    useEffect(() => {
+        if (typeof window !== 'undefined') {
+            setWindowWidth(window.innerWidth);
+        }
+      }, []);
+ 
 
     useEffect(() => {
         dispatch(fetchProducts()); // Whenever website(header) loads, all products will be fetches in advance and stored in the redux store, so whenever we need to show data in any page, we can show it from redux store instead of calling api on every page
