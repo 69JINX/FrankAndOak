@@ -120,8 +120,9 @@ function Product() {
                     </div>
                     <div className='productDetails p-5'>
 
-                        <div role='button' className='goToHomePage text-decoration-underline'>
-                            <Link href="/">Home</Link> / <Link href="/collections">All Products</Link>
+                        <div role='button' className='goToHomePage'>
+                            <Link href="/"><span>Home</span></Link> /
+                            <Link href="/collections"><span>All Products</span></Link>
                         </div>
 
                         <div className='my-3 new'>
