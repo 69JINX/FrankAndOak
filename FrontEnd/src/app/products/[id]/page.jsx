@@ -105,7 +105,7 @@ function Product() {
                             {
                                 product.gallery && product.gallery.map((image, index) => (
                                     <Link key={index} target="_blank" href={filepath + image}>
-                                        <img key={index} className='p-2' width={400} src={filepath + image} />
+                                        <img key={index} className='p-2' src={filepath + image} />
                                     </Link>
                                 ))
                             }

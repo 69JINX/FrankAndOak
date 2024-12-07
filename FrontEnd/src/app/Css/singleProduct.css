@@ -2,6 +2,10 @@
     width: 60vw;
 }
 
+.productImages img {
+    width: 400px !important;
+}
+
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
